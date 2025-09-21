@@ -1,0 +1,1 @@
+CREATE TYPE "public"."userType" AS ENUM('hunter', 'milf');
