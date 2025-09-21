@@ -1,9 +1,4 @@
-import {
-  FastifyError,
-  FastifyInstance,
-  FastifyServerOptions,
-  fastify,
-} from "fastify";
+import { FastifyInstance, FastifyServerOptions, fastify } from "fastify";
 
 type Fastify = typeof fastify;
 async function createServerApp(fastify: Fastify, opts: FastifyServerOptions) {
